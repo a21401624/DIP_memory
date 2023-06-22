@@ -1,7 +1,7 @@
 # Discrepancy preserving (DIP) memory
 
 This is the code for our paper 'RETRIEVE THE VISIBLE FEATURE TO IMPROVE THERMAL PEDESTRIAN DETECTION
-USING DISCREPANCY PRESERVING MEMORY NETWORK' that has been submitted to ICIP2023.
+USING DISCREPANCY PRESERVING MEMORY NETWORK' that has been accepted by ICIP2023.
 
 ![DIP_memory](DIP_memory.png)
 
