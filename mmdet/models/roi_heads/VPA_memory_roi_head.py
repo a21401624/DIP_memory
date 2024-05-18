@@ -1,4 +1,4 @@
-# Author: Hu Yuxuan
+# Author: Yuxuan Hu
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -13,7 +13,7 @@ if sys.version_info >= (3, 7):
 
 
 @HEADS.register_module()
-class VPARoIHead(BaseModule):
+class VPAMemoryRoIHead(BaseModule):
     """
         No mask head and shared head.
         Don't use seperate test_mixins.
@@ -31,7 +31,7 @@ class VPARoIHead(BaseModule):
                  train_cfg=None,
                  test_cfg=None,
                  init_cfg=None):
-        super(VPARoIHead, self).__init__(init_cfg)
+        super(VPAMemoryRoIHead, self).__init__(init_cfg)
         self.baseline = baseline
         self.vpa_slot_size = vpa_slot_size
         self.temperature = temperature

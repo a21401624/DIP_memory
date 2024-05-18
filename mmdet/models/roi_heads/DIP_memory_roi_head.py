@@ -1,4 +1,4 @@
-# Author: Hu Yuxuan
+# Author: Yuxuan Hu
 import os
 import numpy as np
 import random

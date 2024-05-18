@@ -1,5 +1,5 @@
 # Date: 2022/8/3
-# Author: Hu Yuxuan
+# Author: Yuxuan Hu
 import os
 import os.path as osp
 import numpy as np

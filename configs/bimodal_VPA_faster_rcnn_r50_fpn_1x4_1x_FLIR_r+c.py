@@ -45,7 +45,7 @@ model = dict(
             type='CrossEntropyLoss', use_sigmoid=True, loss_weight=1.0),
         loss_bbox=dict(type='L1Loss', loss_weight=1.0)),
     roi_head=dict(
-        type='VPARoIHead',
+        type='VPAMemoryRoIHead',
         vpa_slot_size=100,
         dropout=0,
         temperature=1/16,

@@ -1,4 +1,4 @@
-# Author: Hu Yuxuan
+# Author: Yuxuan Hu
 import warnings
 import torch
 
@@ -10,8 +10,7 @@ from mmcv.runner import auto_fp16
 @DETECTORS.register_module()
 class BimodalMemoryFasterRCNN(BaseDetector):
     """
-        For simplicity, we don't consider neck such as FPN, so no multi-level features.
-        We construct vpa_roi_head based on general roi_head.
+        We construct DIPMemoryRoIHead/ based on general roi_head.
         'baseline' means no VPA module and both images are used in inference.
     """
     def __init__(self,

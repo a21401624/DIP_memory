@@ -1,4 +1,4 @@
-# Author: Hu Yuxuan
+# Author: Yuxuan Hu
 # Date: 2022/8/25
 from .builder import DATASETS
 from .pipelines import Compose
